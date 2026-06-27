@@ -1490,6 +1490,10 @@ button, input, select, textarea {
 }
 
 @media (max-width: 768px) {
+  .testimonials-layout-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
   .top-bar {
     display: none;
   }
